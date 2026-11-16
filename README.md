@@ -35,3 +35,8 @@ Jag skrev färdigt logiken i hänga gubbe så att den är funktionell. Den anvä
 
 Albin
 Fortsatte på mastermind, lade till retry-funktionen, organiserade små saker, fixade feedback och gjorde programmet funktionellt. 
+
+16 november
+
+Oskar
+Flyttade mastermind och ordgissningen till egna repos och ändrade lite små saker i mastermind.
