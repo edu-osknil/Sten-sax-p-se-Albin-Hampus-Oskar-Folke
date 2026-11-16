@@ -40,3 +40,6 @@ Fortsatte på mastermind, lade till retry-funktionen, organiserade små saker, f
 
 Oskar
 Flyttade mastermind och ordgissningen till egna repos och ändrade lite små saker i mastermind.
+
+Albin
+gjorde färdigt mastermind genom att bl.a. korta ner saker, förtydliga saker och fixade felaktiga funktioner från förra lektion. 
