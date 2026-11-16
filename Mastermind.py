@@ -33,10 +33,12 @@ def dif(): #returnerar 1 eller 2 beroende på svar, säker inmatning
 def codeGen(ans): #genererar en kod beroende på om inmatningen är 1 eller 2
     num=[1,2,3,4,5,6]
     codeT=[]
-    for i in range(4):
+    for i in range(4): #flyttar ett slumpat index från num till codeT (1)
         if ans==1:
-            codeT.append(str(num[rand.randint(0,5-i)]))
-        elif ans==2:
+            r=rand.randint(0,5-i)
+            codeT.append(str(num[r]))
+            num.remove(r+1)
+        elif ans==2: #slumpar fram fyra tal (2)
             codeT.append(rand.randint(1,6))
     return "".join(codeT)
 
@@ -66,13 +68,13 @@ Drag #    Drag        Feedback
     
     #printar numrerade gissningar
     for i in range(12,0,-1):
-        print(f"\n{i:<4}",end="")
+        print(f"\n{i:<8}",end="")
         try:
-            print(f"{" ".join(guesses[i-1]):<10}",end="")
+            print(f"{" ".join(guesses[i-1]):<14}",end="")
         except IndexError:
             pass
         try:
-            print(feedbacks[i-1])
+            print(feedbacks[i-1],end="")
         except IndexError:
             pass
         print()
