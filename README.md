@@ -1,6 +1,7 @@
 # Grupp-projekt-Oskar-Hampus-Albin-Folke
 Grupp övningar
 
+
 5 november
 
 Oskar 
@@ -11,6 +12,7 @@ påbörjade stenSaxPåse samt skapade hänga gubbe
 
 Hampus
 Förtydligade några input satser i sten sax påse spelet.
+
 
 9 november
 
@@ -25,6 +27,7 @@ Hampus
 började med ordgissningsspelet aka hänga gubbe. Skapade en lista med ord på 9 bokstäver. gjorde så att det slumpades fram ett random ord wrån listan, sedan gjorde jag en funktion som kollade om det var en bokstav. Slutligen kollade om det fanns i ordet.
 Började på spelloopen
 
+
 12 november
 
 Oskar
@@ -35,6 +38,7 @@ Jag skrev färdigt logiken i hänga gubbe så att den är funktionell. Den anvä
 
 Albin
 Fortsatte på mastermind, lade till retry-funktionen, organiserade små saker, fixade feedback och gjorde programmet funktionellt. 
+
 
 16 november
 
